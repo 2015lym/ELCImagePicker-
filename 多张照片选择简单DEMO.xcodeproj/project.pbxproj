@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3892AEAD1D4F8AE2001E93F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AEAC1D4F8AE2001E93F5 /* main.m */; };
+		3892AEB01D4F8AE2001E93F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AEAF1D4F8AE2001E93F5 /* AppDelegate.m */; };
+		3892AEB31D4F8AE2001E93F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AEB21D4F8AE2001E93F5 /* ViewController.m */; };
+		3892AEB61D4F8AE2001E93F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3892AEB41D4F8AE2001E93F5 /* Main.storyboard */; };
+		3892AEB81D4F8AE2001E93F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3892AEB71D4F8AE2001E93F5 /* Assets.xcassets */; };
+		3892AEBB1D4F8AE2001E93F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3892AEB91D4F8AE2001E93F5 /* LaunchScreen.storyboard */; };
+		3892AEDA1D4F8B6C001E93F5 /* ELCAlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AEC41D4F8B6C001E93F5 /* ELCAlbumPickerController.m */; };
+		3892AEDB1D4F8B6C001E93F5 /* ELCAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AEC61D4F8B6C001E93F5 /* ELCAsset.m */; };
+		3892AEDC1D4F8B6C001E93F5 /* ELCAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AEC81D4F8B6C001E93F5 /* ELCAssetCell.m */; };
+		3892AEDD1D4F8B6C001E93F5 /* ELCAssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AECC1D4F8B6C001E93F5 /* ELCAssetTablePicker.m */; };
+		3892AEDE1D4F8B6C001E93F5 /* ELCConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AECE1D4F8B6C001E93F5 /* ELCConsole.m */; };
+		3892AEDF1D4F8B6C001E93F5 /* ELCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AED01D4F8B6C001E93F5 /* ELCImagePickerController.m */; };
+		3892AEE01D4F8B6C001E93F5 /* ELCOverlayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AED31D4F8B6C001E93F5 /* ELCOverlayImageView.m */; };
+		3892AEE11D4F8B6C001E93F5 /* ELCAlbumPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3892AED51D4F8B6C001E93F5 /* ELCAlbumPickerController.xib */; };
+		3892AEE21D4F8B6C001E93F5 /* ELCAssetPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3892AED61D4F8B6C001E93F5 /* ELCAssetPicker.xib */; };
+		3892AEE31D4F8B6C001E93F5 /* ELCAssetTablePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3892AED71D4F8B6C001E93F5 /* ELCAssetTablePicker.xib */; };
+		3892AEE41D4F8B6C001E93F5 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 3892AED81D4F8B6C001E93F5 /* Overlay.png */; };
+		3892AEE51D4F8B6C001E93F5 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3892AED91D4F8B6C001E93F5 /* Overlay@2x.png */; };
+		3892AEEA1D4F8D03001E93F5 /* YMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3892AEE81D4F8D03001E93F5 /* YMTableViewCell.m */; };
+		3892AEEB1D4F8D03001E93F5 /* YMTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3892AEE91D4F8D03001E93F5 /* YMTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3892AEA81D4F8AE2001E93F5 /* 多张照片选择简单DEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多张照片选择简单DEMO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3892AEAC1D4F8AE2001E93F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3892AEAE1D4F8AE2001E93F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3892AEAF1D4F8AE2001E93F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3892AEB11D4F8AE2001E93F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3892AEB21D4F8AE2001E93F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3892AEB51D4F8AE2001E93F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3892AEB71D4F8AE2001E93F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3892AEBA1D4F8AE2001E93F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3892AEBC1D4F8AE2001E93F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3892AEC31D4F8B6C001E93F5 /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAlbumPickerController.h; sourceTree = "<group>"; };
+		3892AEC41D4F8B6C001E93F5 /* ELCAlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAlbumPickerController.m; sourceTree = "<group>"; };
+		3892AEC51D4F8B6C001E93F5 /* ELCAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAsset.h; sourceTree = "<group>"; };
+		3892AEC61D4F8B6C001E93F5 /* ELCAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAsset.m; sourceTree = "<group>"; };
+		3892AEC71D4F8B6C001E93F5 /* ELCAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetCell.h; sourceTree = "<group>"; };
+		3892AEC81D4F8B6C001E93F5 /* ELCAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetCell.m; sourceTree = "<group>"; };
+		3892AEC91D4F8B6C001E93F5 /* ELCAssetPickerFilterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetPickerFilterDelegate.h; sourceTree = "<group>"; };
+		3892AECA1D4F8B6C001E93F5 /* ELCAssetSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetSelectionDelegate.h; sourceTree = "<group>"; };
+		3892AECB1D4F8B6C001E93F5 /* ELCAssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCAssetTablePicker.h; sourceTree = "<group>"; };
+		3892AECC1D4F8B6C001E93F5 /* ELCAssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCAssetTablePicker.m; sourceTree = "<group>"; };
+		3892AECD1D4F8B6C001E93F5 /* ELCConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCConsole.h; sourceTree = "<group>"; };
+		3892AECE1D4F8B6C001E93F5 /* ELCConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCConsole.m; sourceTree = "<group>"; };
+		3892AECF1D4F8B6C001E93F5 /* ELCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerController.h; sourceTree = "<group>"; };
+		3892AED01D4F8B6C001E93F5 /* ELCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCImagePickerController.m; sourceTree = "<group>"; };
+		3892AED11D4F8B6C001E93F5 /* ELCImagePickerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCImagePickerHeader.h; sourceTree = "<group>"; };
+		3892AED21D4F8B6C001E93F5 /* ELCOverlayImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCOverlayImageView.h; sourceTree = "<group>"; };
+		3892AED31D4F8B6C001E93F5 /* ELCOverlayImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCOverlayImageView.m; sourceTree = "<group>"; };
+		3892AED51D4F8B6C001E93F5 /* ELCAlbumPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAlbumPickerController.xib; sourceTree = "<group>"; };
+		3892AED61D4F8B6C001E93F5 /* ELCAssetPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetPicker.xib; sourceTree = "<group>"; };
+		3892AED71D4F8B6C001E93F5 /* ELCAssetTablePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCAssetTablePicker.xib; sourceTree = "<group>"; };
+		3892AED81D4F8B6C001E93F5 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		3892AED91D4F8B6C001E93F5 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+		3892AEE71D4F8D03001E93F5 /* YMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMTableViewCell.h; sourceTree = "<group>"; };
+		3892AEE81D4F8D03001E93F5 /* YMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMTableViewCell.m; sourceTree = "<group>"; };
+		3892AEE91D4F8D03001E93F5 /* YMTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3892AEA51D4F8AE2001E93F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3892AE9F1D4F8AE2001E93F5 = {
+			isa = PBXGroup;
+			children = (
+				3892AEAA1D4F8AE2001E93F5 /* 多张照片选择简单DEMO */,
+				3892AEA91D4F8AE2001E93F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3892AEA91D4F8AE2001E93F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3892AEA81D4F8AE2001E93F5 /* 多张照片选择简单DEMO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3892AEAA1D4F8AE2001E93F5 /* 多张照片选择简单DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				3892AEC21D4F8B6C001E93F5 /* ELCImagePicker */,
+				3892AEE61D4F8CF6001E93F5 /* Cell */,
+				3892AEAE1D4F8AE2001E93F5 /* AppDelegate.h */,
+				3892AEAF1D4F8AE2001E93F5 /* AppDelegate.m */,
+				3892AEB11D4F8AE2001E93F5 /* ViewController.h */,
+				3892AEB21D4F8AE2001E93F5 /* ViewController.m */,
+				3892AEB41D4F8AE2001E93F5 /* Main.storyboard */,
+				3892AEB71D4F8AE2001E93F5 /* Assets.xcassets */,
+				3892AEB91D4F8AE2001E93F5 /* LaunchScreen.storyboard */,
+				3892AEBC1D4F8AE2001E93F5 /* Info.plist */,
+				3892AEAB1D4F8AE2001E93F5 /* Supporting Files */,
+			);
+			path = "多张照片选择简单DEMO";
+			sourceTree = "<group>";
+		};
+		3892AEAB1D4F8AE2001E93F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3892AEAC1D4F8AE2001E93F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3892AEC21D4F8B6C001E93F5 /* ELCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3892AEC31D4F8B6C001E93F5 /* ELCAlbumPickerController.h */,
+				3892AEC41D4F8B6C001E93F5 /* ELCAlbumPickerController.m */,
+				3892AEC51D4F8B6C001E93F5 /* ELCAsset.h */,
+				3892AEC61D4F8B6C001E93F5 /* ELCAsset.m */,
+				3892AEC71D4F8B6C001E93F5 /* ELCAssetCell.h */,
+				3892AEC81D4F8B6C001E93F5 /* ELCAssetCell.m */,
+				3892AEC91D4F8B6C001E93F5 /* ELCAssetPickerFilterDelegate.h */,
+				3892AECA1D4F8B6C001E93F5 /* ELCAssetSelectionDelegate.h */,
+				3892AECB1D4F8B6C001E93F5 /* ELCAssetTablePicker.h */,
+				3892AECC1D4F8B6C001E93F5 /* ELCAssetTablePicker.m */,
+				3892AECD1D4F8B6C001E93F5 /* ELCConsole.h */,
+				3892AECE1D4F8B6C001E93F5 /* ELCConsole.m */,
+				3892AECF1D4F8B6C001E93F5 /* ELCImagePickerController.h */,
+				3892AED01D4F8B6C001E93F5 /* ELCImagePickerController.m */,
+				3892AED11D4F8B6C001E93F5 /* ELCImagePickerHeader.h */,
+				3892AED21D4F8B6C001E93F5 /* ELCOverlayImageView.h */,
+				3892AED31D4F8B6C001E93F5 /* ELCOverlayImageView.m */,
+				3892AED41D4F8B6C001E93F5 /* Resources */,
+			);
+			path = ELCImagePicker;
+			sourceTree = "<group>";
+		};
+		3892AED41D4F8B6C001E93F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3892AED51D4F8B6C001E93F5 /* ELCAlbumPickerController.xib */,
+				3892AED61D4F8B6C001E93F5 /* ELCAssetPicker.xib */,
+				3892AED71D4F8B6C001E93F5 /* ELCAssetTablePicker.xib */,
+				3892AED81D4F8B6C001E93F5 /* Overlay.png */,
+				3892AED91D4F8B6C001E93F5 /* Overlay@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3892AEE61D4F8CF6001E93F5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3892AEE71D4F8D03001E93F5 /* YMTableViewCell.h */,
+				3892AEE81D4F8D03001E93F5 /* YMTableViewCell.m */,
+				3892AEE91D4F8D03001E93F5 /* YMTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3892AEA71D4F8AE2001E93F5 /* 多张照片选择简单DEMO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3892AEBF1D4F8AE2001E93F5 /* Build configuration list for PBXNativeTarget "多张照片选择简单DEMO" */;
+			buildPhases = (
+				3892AEA41D4F8AE2001E93F5 /* Sources */,
+				3892AEA51D4F8AE2001E93F5 /* Frameworks */,
+				3892AEA61D4F8AE2001E93F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多张照片选择简单DEMO";
+			productName = "多张照片选择简单DEMO";
+			productReference = 3892AEA81D4F8AE2001E93F5 /* 多张照片选择简单DEMO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3892AEA01D4F8AE2001E93F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Lym;
+				TargetAttributes = {
+					3892AEA71D4F8AE2001E93F5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 3892AEA31D4F8AE2001E93F5 /* Build configuration list for PBXProject "多张照片选择简单DEMO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3892AE9F1D4F8AE2001E93F5;
+			productRefGroup = 3892AEA91D4F8AE2001E93F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3892AEA71D4F8AE2001E93F5 /* 多张照片选择简单DEMO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3892AEA61D4F8AE2001E93F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3892AEE31D4F8B6C001E93F5 /* ELCAssetTablePicker.xib in Resources */,
+				3892AEEB1D4F8D03001E93F5 /* YMTableViewCell.xib in Resources */,
+				3892AEE11D4F8B6C001E93F5 /* ELCAlbumPickerController.xib in Resources */,
+				3892AEE41D4F8B6C001E93F5 /* Overlay.png in Resources */,
+				3892AEBB1D4F8AE2001E93F5 /* LaunchScreen.storyboard in Resources */,
+				3892AEB81D4F8AE2001E93F5 /* Assets.xcassets in Resources */,
+				3892AEE51D4F8B6C001E93F5 /* Overlay@2x.png in Resources */,
+				3892AEB61D4F8AE2001E93F5 /* Main.storyboard in Resources */,
+				3892AEE21D4F8B6C001E93F5 /* ELCAssetPicker.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3892AEA41D4F8AE2001E93F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3892AEDA1D4F8B6C001E93F5 /* ELCAlbumPickerController.m in Sources */,
+				3892AEB31D4F8AE2001E93F5 /* ViewController.m in Sources */,
+				3892AEDF1D4F8B6C001E93F5 /* ELCImagePickerController.m in Sources */,
+				3892AEEA1D4F8D03001E93F5 /* YMTableViewCell.m in Sources */,
+				3892AEB01D4F8AE2001E93F5 /* AppDelegate.m in Sources */,
+				3892AEDB1D4F8B6C001E93F5 /* ELCAsset.m in Sources */,
+				3892AEDD1D4F8B6C001E93F5 /* ELCAssetTablePicker.m in Sources */,
+				3892AEAD1D4F8AE2001E93F5 /* main.m in Sources */,
+				3892AEDE1D4F8B6C001E93F5 /* ELCConsole.m in Sources */,
+				3892AEE01D4F8B6C001E93F5 /* ELCOverlayImageView.m in Sources */,
+				3892AEDC1D4F8B6C001E93F5 /* ELCAssetCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3892AEB41D4F8AE2001E93F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3892AEB51D4F8AE2001E93F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3892AEB91D4F8AE2001E93F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3892AEBA1D4F8AE2001E93F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3892AEBD1D4F8AE2001E93F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3892AEBE1D4F8AE2001E93F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3892AEC01D4F8AE2001E93F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "多张照片选择简单DEMO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lym.--------DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3892AEC11D4F8AE2001E93F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "多张照片选择简单DEMO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Lym.--------DEMO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3892AEA31D4F8AE2001E93F5 /* Build configuration list for PBXProject "多张照片选择简单DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3892AEBD1D4F8AE2001E93F5 /* Debug */,
+				3892AEBE1D4F8AE2001E93F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3892AEBF1D4F8AE2001E93F5 /* Build configuration list for PBXNativeTarget "多张照片选择简单DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3892AEC01D4F8AE2001E93F5 /* Debug */,
+				3892AEC11D4F8AE2001E93F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3892AEA01D4F8AE2001E93F5 /* Project object */;
+}
