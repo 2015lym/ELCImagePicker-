@@ -17,7 +17,7 @@
 @end
 
 @implementation ViewController
-
+#pragma mark -----生命周期-----
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -30,40 +30,41 @@
     [self.tableView registerNib:[UINib nibWithNibName:@"YMTableViewCell" bundle:nil] forCellReuseIdentifier:@"YMTableViewCell"];
 }
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+}
+
+#pragma mark -----TableView delegate&dataSource-----
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{//几个cell
+{
     return 4;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{//每个section下几个cell
+{
     return 1;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{//每个section的高度
+{
         return 1;
 }
 
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{//每个cell高度
+{
     if (indexPath.section==0) {
         return 60;
-    }
-    else if(indexPath.section==1){
+    } else if (indexPath.section==1){
         return 80;
-    }
-    else if(indexPath.section==2){
+    } else if (indexPath.section==2){
         return 100;
-    }
-    else {
+    } else {
         return 120;
     }
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
     //分割线设置
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
     YMTableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:@"YMTableViewCell" forIndexPath:indexPath];
@@ -71,14 +72,6 @@
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{//点击事件
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    
-}
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
+
 
 @end
